@@ -11,6 +11,8 @@ rules:
   - get
   - list
   - update
+  - watch
+  - patch
 - apiGroups:
   - apps
   resources:
@@ -21,6 +23,7 @@ rules:
   - create
   - update
   - delete
+  - watch
 - apiGroups:
   - ""
   resources:
@@ -29,6 +32,7 @@ rules:
   - get
   - list
   - patch
+  - watch
 - apiGroups:
   - ""
   resources:
